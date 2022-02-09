@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c192c;
+  color: white;
+
+  .card-container {
+    padding: 20px;
+    height: auto;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #15273f;
+
+    box-shadow: 10px 10px 20px #030f20;
+
+    .image {
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      #img1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+    }
+    .description {
+      position: relative;
+      top: 10px;
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+      p {
+        font-weight: lighter;
+      }
+    }
+
+    .diamond {
+        position: relative;
+        top: 20px;
+      display: flex;
+      justify-content: space-between;
+
+      .left {
+          gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .right {
+
+        display: flex;
+        gap: 5px;
+      }
+    }
+    #hr {
+        position: relative;
+        top: 30px;
+    }
+    .creation {
+        top: 40px;
+        position: relative;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        
+
+        .img {
+            
+            position: relative;
+            left: 5px;
+            #img2 {
+                    border: 2px solid white;
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+        }
+        .text {
+            
+            
+            position: relative;
+            left: 10px;
+
+        a {
+            position: relative;
+            left: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        }
+        
+    }
+  }
+}

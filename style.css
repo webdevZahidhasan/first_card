@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0c192c;
+  color: white;
+}
+
+body .card-container {
+  padding: 20px;
+  height: auto;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #15273f;
+  -webkit-box-shadow: 10px 10px 20px #030f20;
+          box-shadow: 10px 10px 20px #030f20;
+}
+
+body .card-container .image {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+body .card-container .image #img1 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+
+body .card-container .description {
+  position: relative;
+  top: 10px;
+}
+
+body .card-container .description h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+body .card-container .description p {
+  font-weight: lighter;
+}
+
+body .card-container .diamond {
+  position: relative;
+  top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .card-container .diamond .left {
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card-container .diamond .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+body .card-container #hr {
+  position: relative;
+  top: 30px;
+}
+
+body .card-container .creation {
+  top: 40px;
+  position: relative;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card-container .creation .img {
+  position: relative;
+  left: 5px;
+}
+
+body .card-container .creation .img #img2 {
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+body .card-container .creation .text {
+  position: relative;
+  left: 10px;
+}
+
+body .card-container .creation .text a {
+  position: relative;
+  left: 10px;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
